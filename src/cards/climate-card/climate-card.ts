@@ -290,6 +290,7 @@ export class ClimateCard
           <mushroom-climate-temperature-control
             .hass=${this.hass}
             .entity=${entity}
+            .modes=${hvac_modes}
             .fill=${appearance.layout !== "horizontal"}
           ></mushroom-climate-temperature-control>
         `;
